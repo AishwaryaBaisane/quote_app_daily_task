@@ -2,10 +2,10 @@
 
 ## Dialogue :
 <p>
-  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/76cf6bb8-0ecb-47d5-b562-24735c682b56" height = 25% width = 15%>
-  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/e3505c78-e2fa-449e-b43f-7142bfd1f118"  height = 25% width = 15%>
-  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/7424b844-f891-465b-ab2c-090ae2ddac8d" height = 25% width = 15%>
-  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/674abb7a-9024-4a88-9b36-0e74c828d033" height = 25% width = 15%>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/76cf6bb8-0ecb-47d5-b562-24735c682b56" height = 25% width = 20%>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/e3505c78-e2fa-449e-b43f-7142bfd1f118"  height = 25% width = 20%>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/7424b844-f891-465b-ab2c-090ae2ddac8d" height = 25% width = 20%>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/674abb7a-9024-4a88-9b36-0e74c828d033" height = 25% width = 20%>
 </p>
 
 ## Modal Class & Factory Constructor.
