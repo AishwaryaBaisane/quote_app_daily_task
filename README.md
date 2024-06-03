@@ -95,6 +95,8 @@ void main()
   <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/34081a3c-4c95-41a9-87e5-92004596dd0a" height = 25% width = 20%>
   <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/b0723c5e-98cc-4dea-a1f7-3aed3c72ab47"  height = 25% width = 20%>
 </p>
-<align = "center">
+<div align="center">
+<video  height="550" src=""/></video>
+</div>
 
 
