@@ -37,6 +37,7 @@ class _HomePageState extends State<HomePage> {
             children: List.generate(
               quotesModel!.QuotesList.length,
               (index) => Card(
+                color: colorList[index % colorList.length],
                 child: ListTile(
                   title: Text(quotesModel!.QuotesList[index].quote!),
                   subtitle: Text(
@@ -70,8 +71,17 @@ class _HomePageState extends State<HomePage> {
                       Navigator.of(context).pop();
                     },
                     child: Text(
+                      'Continue',
+                      style: TextStyle(color: Colors.black87,fontSize: 20),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Text(
                       'Back',
-                      style: TextStyle(color: Colors.black87),
+                      style: TextStyle(color: Colors.black87,fontSize: 20),
                     ),
                   ),
                 ],
