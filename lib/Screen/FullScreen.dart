@@ -20,10 +20,11 @@ class _FullScreenState extends State<FullScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextButton(
-                    onPressed: () {
-                      showDialog(
-                        context: context,
-                        builder: (BuildContext context) => Dialog(
+                  onPressed: () {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) => SingleChildScrollView(
+                        child: Dialog(
                           insetPadding: EdgeInsets.all(10),
                           child: Padding(
                             padding: const EdgeInsets.all(20),
@@ -74,8 +75,8 @@ class _FullScreenState extends State<FullScreen> {
                                       hintText: 'Input',
                                       hintStyle: TextStyle(color: Colors.black),
                                       enabledBorder: OutlineInputBorder(
-                                          borderSide: BorderSide(
-                                              color: Colors.black54)),
+                                          borderSide:
+                                              BorderSide(color: Colors.black54)),
                                       focusedBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
                                             color: Colors.black54, width: 2),
@@ -132,16 +133,14 @@ class _FullScreenState extends State<FullScreen> {
                                           hintStyle:
                                               TextStyle(color: Colors.black87),
                                           enabledBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                                color: Colors.black54),
+                                            borderSide:
+                                                BorderSide(color: Colors.black54),
                                           ),
                                           focusedBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
-                                                color: Colors.black54,
-                                                width: 1),
+                                                color: Colors.black54, width: 1),
                                           ),
-                                            suffixIcon:
-                                            Icon(Icons.arrow_drop_down),
+                                          suffixIcon: Icon(Icons.arrow_drop_down),
                                         ),
                                       ),
                                     ),
@@ -159,16 +158,14 @@ class _FullScreenState extends State<FullScreen> {
                                           hintStyle:
                                               TextStyle(color: Colors.black87),
                                           enabledBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                                color: Colors.black54),
+                                            borderSide:
+                                                BorderSide(color: Colors.black54),
                                           ),
                                           focusedBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
-                                                color: Colors.black54,
-                                                width: 1),
+                                                color: Colors.black54, width: 1),
                                           ),
-                                            suffixIcon:
-                                            Icon(Icons.arrow_drop_down),
+                                          suffixIcon: Icon(Icons.arrow_drop_down),
                                         ),
                                       ),
                                     ),
@@ -204,16 +201,14 @@ class _FullScreenState extends State<FullScreen> {
                                           hintStyle:
                                               TextStyle(color: Colors.black87),
                                           enabledBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                                color: Colors.black54),
+                                            borderSide:
+                                                BorderSide(color: Colors.black54),
                                           ),
                                           focusedBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
-                                                color: Colors.black54,
-                                                width: 1),
+                                                color: Colors.black54, width: 1),
                                           ),
-                                            suffixIcon:
-                                            Icon(Icons.arrow_drop_down),
+                                          suffixIcon: Icon(Icons.arrow_drop_down),
                                         ),
                                       ),
                                     ),
@@ -231,31 +226,32 @@ class _FullScreenState extends State<FullScreen> {
                                           hintStyle:
                                               TextStyle(color: Colors.black87),
                                           enabledBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                                color: Colors.black54),
+                                            borderSide:
+                                                BorderSide(color: Colors.black54),
                                           ),
                                           focusedBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
-                                                color: Colors.black54,
-                                                width: 1),
+                                                color: Colors.black54, width: 1),
                                           ),
-                                            suffixIcon:
-                                            Icon(Icons.arrow_drop_down),
+                                          suffixIcon: Icon(Icons.arrow_drop_down),
                                         ),
                                       ),
                                     ),
                                   ],
-                                )
+                                ),
+                                SizedBox(height: 200,)
                               ],
                             ),
                           ),
                         ),
-                      );
-                    },
-                    child: Text(
-                      'Full Screen Dialog ',
-                      style: TextStyle(fontSize: 20),
-                    ))
+                      ),
+                    );
+                  },
+                  child: Text(
+                    'Full Screen Dialog ',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                )
               ],
             ),
           ),
