@@ -32,7 +32,10 @@ class _HomePageState extends State<HomePage> {
               (index) => Card(
                 child: ListTile(
                   title: Text(quotesModel!.QuotesList[index].quote!),
-                  subtitle: Text(quotesModel!.QuotesList[index].author!),
+                  subtitle: Text(
+                    quotesModel!.QuotesList[index].author!,
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ),
