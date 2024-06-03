@@ -460,9 +460,14 @@ List QutoesList = [
 ];
 
 List colorList = [
+  Colors.white30,
   Colors.red,
   Colors.blue,
   Colors.green,
   Colors.amber,
-  Colors.amberAccent,
+  Colors.cyan,
+  Colors.pink,
+  Colors.teal,
+  Colors.deepOrange,
+  Colors.deepPurple,
 ];

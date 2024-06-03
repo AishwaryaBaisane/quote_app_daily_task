@@ -23,8 +23,15 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
+    return  Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.black,
+          title: Text(
+            'Quotes',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30,color: Colors.white),
+          ),
+        ),
         body: SingleChildScrollView(
           child: Column(
             children: List.generate(
@@ -33,7 +40,7 @@ class _HomePageState extends State<HomePage> {
                 child: ListTile(
                   title: Text(quotesModel!.QuotesList[index].quote!),
                   subtitle: Text(
-                    quotesModel!.QuotesList[index].author!,
+                    '-${quotesModel!.QuotesList[index].author!}',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -50,19 +57,29 @@ class _HomePageState extends State<HomePage> {
               builder: (context) => AlertDialog(
                 backgroundColor: colorList[x % colorList.length],
                 title: Text(
-                  quotesModel!.QuotesList[x].author,
+                  '${quotesModel!.QuotesList[x].author}',
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 content: Text(
                   quotesModel!.QuotesList[x].quote,
                   style: TextStyle(fontSize: 20),
                 ),
+                actions: [
+                  TextButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: Text(
+                      'Back',
+                      style: TextStyle(color: Colors.black87),
+                    ),
+                  ),
+                ],
               ),
             );
           },
           child: Icon(Icons.notification_add),
         ),
-      ),
-    );
+      );
   }
 }
