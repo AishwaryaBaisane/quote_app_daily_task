@@ -99,4 +99,16 @@ void main()
 <video  height="550" src="https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/a392bfc4-f48f-4794-8296-f1b9e27cf7d5"/></video>
 </div>
 
+## GridView :
+<p>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/d4dd9eaf-8a3f-499a-a7bb-c275aa5f7c05" height = 25% width = 25%>
+  <img src = "https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/612619be-2555-4a4d-bca3-60b2bcda98cd"  height = 25% width = 25%>
+</p>
+<div align="center">
+<video  height="550" src="https://github.com/AishwaryaBaisane/quote_app_daily_task/assets/149373597/875ee527-36fa-4ecb-b116-acaaf143e145"/></video>
+</div>
+
+
+
+
 
